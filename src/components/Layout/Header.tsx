@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,21 +31,22 @@ const Header = () => {
       <div className="container-custom">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <a href="#" className="flex items-center">
+          <Link to="/" className="flex items-center">
             <img 
               src="/lovable-uploads/c5b25de9-bd36-4828-8e46-e2e9061648b6.png" 
               alt="ACIAL - Associação Comercial, Industrial e Agropecuária da Lapa" 
               className="h-12 md:h-16 w-auto"
             />
-          </a>
+          </Link>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-1">
-            <a href="#" className="nav-link active">Início</a>
-            <a href="#sobre" className="nav-link">Sobre</a>
-            <a href="#servicos" className="nav-link">Serviços</a>
-            <a href="#associe-se" className="nav-link">Associe-se</a>
-            <a href="#contato" className="nav-link">Contato</a>
+            <Link to="/" className="nav-link">Início</Link>
+            <Link to="/#sobre" className="nav-link">Sobre</Link>
+            <Link to="/#servicos" className="nav-link">Serviços</Link>
+            <Link to="/equipe" className="nav-link">Nossa Equipe</Link>
+            <Link to="/#associe-se" className="nav-link">Associe-se</Link>
+            <Link to="/#contato" className="nav-link">Contato</Link>
           </nav>
           
           {/* Mobile Menu Button */}
@@ -61,11 +63,12 @@ const Header = () => {
       {/* Mobile Navigation Menu */}
       <div className={`md:hidden ${isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 pointer-events-none'} overflow-hidden transition-all duration-300 ease-in-out`}>
         <div className="container-custom py-4 flex flex-col space-y-3 border-t mt-2">
-          <a href="#" className="px-4 py-2 text-gray-700 hover:text-acial-green hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Início</a>
-          <a href="#sobre" className="px-4 py-2 text-gray-700 hover:text-acial-green hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Sobre</a>
-          <a href="#servicos" className="px-4 py-2 text-gray-700 hover:text-acial-green hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Serviços</a>
-          <a href="#associe-se" className="px-4 py-2 text-gray-700 hover:text-acial-green hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Associe-se</a>
-          <a href="#contato" className="px-4 py-2 text-gray-700 hover:text-acial-green hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Contato</a>
+          <Link to="/" className="px-4 py-2 text-gray-700 hover:text-acial-green hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Início</Link>
+          <Link to="/#sobre" className="px-4 py-2 text-gray-700 hover:text-acial-green hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Sobre</Link>
+          <Link to="/#servicos" className="px-4 py-2 text-gray-700 hover:text-acial-green hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Serviços</Link>
+          <Link to="/equipe" className="px-4 py-2 text-gray-700 hover:text-acial-green hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Nossa Equipe</Link>
+          <Link to="/#associe-se" className="px-4 py-2 text-gray-700 hover:text-acial-green hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Associe-se</Link>
+          <Link to="/#contato" className="px-4 py-2 text-gray-700 hover:text-acial-green hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Contato</Link>
         </div>
       </div>
     </header>

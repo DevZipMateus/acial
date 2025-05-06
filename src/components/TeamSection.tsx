@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Badge, Briefcase, Building } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
@@ -176,30 +175,40 @@ const staffMembers = [
     name: 'Augusto Ferreira da Luz',
     role: 'Colaborador',
     image: '/lovable-uploads/Augusto Ferreira da Luz- Colaborador.jpeg',
+    affiliation: '',
+    category: 'Colaborador',
   },
   {
     id: 2,
     name: 'Célia Aparecida de Abreu Vianna',
     role: 'Colaboradora',
     image: '/lovable-uploads/Célia Aparecida de Abreu Vianna - Colaboradora.jpg',
+    affiliation: '',
+    category: 'Colaborador',
   },
   {
     id: 3,
     name: 'Emanuelle Gorniski',
     role: 'Departamento Jurídico',
     image: '/lovable-uploads/Emanuelle Gorniski - Departamento Jurídico.jpg',
+    affiliation: '',
+    category: 'Colaborador',
   },
   {
     id: 4,
     name: 'Lucas de Abreu Vianna',
     role: 'Colaborador',
     image: '/lovable-uploads/Lucas de Abreu Vianna - Colaborador.jpeg',
+    affiliation: '',
+    category: 'Colaborador',
   },
   {
     id: 5,
     name: 'Sandra de Fátima Vianna',
     role: 'Colaboradora',
     image: '/lovable-uploads/Sandra de Fátima Vianna - Colaboradora.jpg',
+    affiliation: '',
+    category: 'Colaborador',
   },
 ];
 
@@ -246,7 +255,7 @@ const TeamSection = () => {
   const fiscalMembers = boardMembers.filter(member => member.category === 'Conselho Fiscal');
 
   return (
-    <section id="equipe" className="section bg-gradient-to-b from-white to-gray-50 py-16 md:py-24">
+    <section className="section bg-gradient-to-b from-white to-gray-50 py-16 md:py-24">
       <div className="container-custom">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
