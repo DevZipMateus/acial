@@ -94,7 +94,7 @@ const boardMembers = [
     affiliation: 'MR Marcenaria',
     image: '/lovable-uploads/10) Marco Antônio Machado Rosa (Diretor dos profissionais lliberais e prestadores de serviço).jpeg',
     category: 'Diretoria',
-    imageStyle: 'cover', // Default
+    imageStyle: 'none', // Default
   },
   {
     id: 11,
