@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Badge, Briefcase } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
@@ -128,37 +127,37 @@ const boardMembers = [
   },
 ];
 
-// Staff members data (using placeholder data as no images were provided)
+// Staff members data with real information and images
 const staffMembers = [
   {
     id: 1,
-    name: 'Ana Silva',
-    role: 'Assistente Administrativo',
-    image: '',
+    name: 'Augusto Ferreira da Luz',
+    role: 'Colaborador',
+    image: '/lovable-uploads/Augusto Ferreira da Luz- Colaborador.jpeg',
   },
   {
     id: 2,
-    name: 'Carlos Santos',
-    role: 'Analista Financeiro',
-    image: '',
+    name: 'Célia Aparecida de Abreu Vianna',
+    role: 'Colaboradora',
+    image: '/lovable-uploads/Célia Aparecida de Abreu Vianna - Colaboradora.jpg',
   },
   {
     id: 3,
-    name: 'Mariana Costa',
-    role: 'Atendimento ao Associado',
-    image: '',
+    name: 'Emanuelle Gorniski',
+    role: 'Departamento Jurídico',
+    image: '/lovable-uploads/Emanuelle Gorniski - Departamento Jurídico.jpg',
   },
   {
     id: 4,
-    name: 'Paulo Oliveira',
-    role: 'Suporte Técnico',
-    image: '',
+    name: 'Lucas de Abreu Vianna',
+    role: 'Colaborador',
+    image: '/lovable-uploads/Lucas de Abreu Vianna - Colaborador.jpeg',
   },
   {
     id: 5,
-    name: 'Lucia Fernandes',
-    role: 'Secretária',
-    image: '',
+    name: 'Sandra de Fátima Vianna',
+    role: 'Colaboradora',
+    image: '/lovable-uploads/Sandra de Fátima Vianna - Colaboradora.jpg',
   },
 ];
 
