@@ -233,7 +233,7 @@ const staffMembers = [
     image: '/lovable-uploads/Sandra de Fátima Vianna - Colaboradora.jpg',
     affiliation: '',
     category: 'Colaborador',
-    imageStyle: 'contain', // Fix for cropped image
+    imageStyle: 'none', // Fix for cropped image
   },
 ];
 
