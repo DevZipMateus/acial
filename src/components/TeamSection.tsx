@@ -13,6 +13,7 @@ const boardMembers = [
     affiliation: 'R&P – Ramos e Pawowski Advocacia',
     image: '/lovable-uploads/1- Nilciane Aparecida Ramos Pawowski - Presidente.jpg',
     category: 'Diretoria',
+    imageStyle: 'contain', // Fix for cropped image
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ const boardMembers = [
     affiliation: 'Advogada',
     image: '/lovable-uploads/2- Daniele Balbino Laibida (Vice-Presidente);.jpg',
     category: 'Diretoria',
+    imageStyle: 'cover', // Default
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ const boardMembers = [
     affiliation: 'Advogada e empresária - FG Soluções Ambientais',
     image: '/lovable-uploads/3-Flávia Jeane Ferrari (Secretária Geral);.jpg',
     category: 'Diretoria',
+    imageStyle: 'contain', // Fix for cropped image
   },
   {
     id: 4,
@@ -37,6 +40,7 @@ const boardMembers = [
     affiliation: 'Influx Lapa',
     image: '/lovable-uploads/4- Cynthia Ramin Mendes (Secretária Adjunta);.jpg',
     category: 'Diretoria',
+    imageStyle: 'cover', // Default
   },
   {
     id: 5,
@@ -45,6 +49,7 @@ const boardMembers = [
     affiliation: 'Jornal A Tribuna Regional',
     image: '/lovable-uploads/5-Suzana Maria Reicherdt Gorniski (Tesoureira);.jpeg',
     category: 'Diretoria',
+    imageStyle: 'cover', // Default
   },
   {
     id: 6,
@@ -53,6 +58,7 @@ const boardMembers = [
     affiliation: 'Garimpo Presentes',
     image: '/lovable-uploads/6-Kátia Cristina Santos Mendes (Diretora do Comércio);.jpeg',
     category: 'Diretoria',
+    imageStyle: 'cover', // Default
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ const boardMembers = [
     affiliation: 'Odontoforte e Instituto Vetor',
     image: '/lovable-uploads/7  Rodrigo Dal Zotto Querubim (Diretor de Tecnologia e Marketing);.jpg',
     category: 'Diretoria',
+    imageStyle: 'cover', // Default
   },
   {
     id: 8,
@@ -69,6 +76,7 @@ const boardMembers = [
     affiliation: 'Colégio Cooperativa e Cooperativa Agroindustrial Bom Jesus',
     image: '/lovable-uploads/8)  Eraldo Correa do Nascimento (Diretor do Agronegócio).jpeg',
     category: 'Diretoria',
+    imageStyle: 'contain', // Fix for cropped image
   },
   {
     id: 9,
@@ -77,6 +85,7 @@ const boardMembers = [
     affiliation: 'Salão Loriane e +Q básico',
     image: '/lovable-uploads/9-  Loriane de Jesus Martins (Diretora da Acial Jovem);.jpg',
     category: 'Diretoria',
+    imageStyle: 'cover', // Default
   },
   {
     id: 10,
@@ -85,6 +94,7 @@ const boardMembers = [
     affiliation: 'MR Marcenaria',
     image: '/lovable-uploads/10) Marco Antônio Machado Rosa (Diretor dos profissionais lliberais e prestadores de serviço).jpeg',
     category: 'Diretoria',
+    imageStyle: 'cover', // Default
   },
   {
     id: 11,
@@ -93,6 +103,7 @@ const boardMembers = [
     affiliation: 'Office.com',
     image: '/lovable-uploads/11-  Michelli Mulhbauer Duda (Diretora de Eventos).jpg',
     category: 'Diretoria',
+    imageStyle: 'contain', // Fix for cropped image
   },
   {
     id: 12,
@@ -101,6 +112,7 @@ const boardMembers = [
     affiliation: 'Ademicon Consórcios',
     image: '/lovable-uploads/12) Thiago Cordeiro Gurski (Diretor de Relações Institucionais).jpg',
     category: 'Diretoria',
+    imageStyle: 'cover', // Default
   },
   {
     id: 13,
@@ -109,6 +121,7 @@ const boardMembers = [
     affiliation: 'Gerente PJ Cresol Triunfo Lapa',
     image: '/lovable-uploads/13) Aline Cristina Mateus (Diretora de Responsabilidade Social) .jpg',
     category: 'Diretoria',
+    imageStyle: 'contain', // Fix for cropped image
   },
   {
     id: 14,
@@ -117,6 +130,7 @@ const boardMembers = [
     affiliation: 'Grupo Potencial',
     image: '/lovable-uploads/14) Luiz Carlos Bruzamolin Filho; (Diretor da Industria);  Grupo Potencial..jpeg',
     category: 'Diretoria',
+    imageStyle: 'cover', // Default
   },
   {
     id: 15,
@@ -125,6 +139,7 @@ const boardMembers = [
     affiliation: 'Helena Bonfart Boutique',
     image: '/lovable-uploads/15) Fernanda Gonçalves (Presidente do Conselho da Mulher Executiva Acial Mulher),.jpeg',
     category: 'Conselhos',
+    imageStyle: 'cover', // Default
   },
   {
     id: 16,
@@ -133,6 +148,7 @@ const boardMembers = [
     affiliation: 'Pousada Solar',
     image: '/lovable-uploads/16) Sérgio Vinícius de Souza Júnior (Presidente do Conselho de Turismo, Cultura e Gastronomia);.jpeg',
     category: 'Conselhos',
+    imageStyle: 'contain', // Fix for cropped image
   },
   {
     id: 17,
@@ -141,6 +157,7 @@ const boardMembers = [
     affiliation: 'Fênix Tintas',
     image: '/lovable-uploads/17) Natanael Piculski Schuster (Presidente do Nucleo de Inovação).jpg',
     category: 'Conselhos',
+    imageStyle: 'cover', // Default
   },
   {
     id: 18,
@@ -149,6 +166,7 @@ const boardMembers = [
     affiliation: 'Rede Megapasso Calçados',
     image: '/lovable-uploads/18) Luiz Carlos Padilha(Conselheiro Fiscal).jpeg',
     category: 'Conselho Fiscal',
+    imageStyle: 'cover', // Default
   },
   {
     id: 19,
@@ -157,6 +175,7 @@ const boardMembers = [
     affiliation: 'Posto Lapeano',
     image: '/lovable-uploads/19) Marina Gilaverte - Conselheira Fiscal.jpeg',
     category: 'Conselho Fiscal',
+    imageStyle: 'cover', // Default
   },
   {
     id: 20,
@@ -165,6 +184,7 @@ const boardMembers = [
     affiliation: 'Advogado e empresário – Delícias da Su',
     image: '/lovable-uploads/20) Pablo Mathaus Correa Lopes - Conselheiro Fiscal.jpg',
     category: 'Conselho Fiscal',
+    imageStyle: 'contain', // Fix for cropped image
   },
 ];
 
@@ -177,6 +197,7 @@ const staffMembers = [
     image: '/lovable-uploads/Augusto Ferreira da Luz- Colaborador.jpeg',
     affiliation: '',
     category: 'Colaborador',
+    imageStyle: 'cover', // Default
   },
   {
     id: 2,
@@ -185,6 +206,7 @@ const staffMembers = [
     image: '/lovable-uploads/Célia Aparecida de Abreu Vianna - Colaboradora.jpg',
     affiliation: '',
     category: 'Colaborador',
+    imageStyle: 'contain', // Fix for cropped image
   },
   {
     id: 3,
@@ -193,6 +215,7 @@ const staffMembers = [
     image: '/lovable-uploads/Emanuelle Gorniski - Departamento Jurídico.jpg',
     affiliation: '',
     category: 'Colaborador',
+    imageStyle: 'contain', // Fix for cropped image
   },
   {
     id: 4,
@@ -201,6 +224,7 @@ const staffMembers = [
     image: '/lovable-uploads/Lucas de Abreu Vianna - Colaborador.jpeg',
     affiliation: '',
     category: 'Colaborador',
+    imageStyle: 'cover', // Default
   },
   {
     id: 5,
@@ -209,6 +233,7 @@ const staffMembers = [
     image: '/lovable-uploads/Sandra de Fátima Vianna - Colaboradora.jpg',
     affiliation: '',
     category: 'Colaborador',
+    imageStyle: 'contain', // Fix for cropped image
   },
 ];
 
@@ -220,6 +245,9 @@ const TeamMemberCard = ({ member }: { member: typeof boardMembers[0] }) => {
     .slice(0, 2)
     .join('');
 
+  // Default to 'cover' if imageStyle is not specified
+  const objectFitStyle = member.imageStyle || 'cover';
+
   return (
     <Card className="hover:shadow-md transition-all duration-300 h-full">
       <CardContent className="p-4 flex flex-col items-center">
@@ -228,7 +256,7 @@ const TeamMemberCard = ({ member }: { member: typeof boardMembers[0] }) => {
             <img 
               src={member.image} 
               alt={member.name}
-              className="object-cover object-center w-full h-full"
+              className={`object-${objectFitStyle} object-center w-full h-full`}
             />
           </AspectRatio>
         </div>
