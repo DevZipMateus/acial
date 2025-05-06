@@ -206,7 +206,7 @@ const staffMembers = [
     image: '/lovable-uploads/Célia Aparecida de Abreu Vianna - Colaboradora.jpg',
     affiliation: '',
     category: 'Colaborador',
-    imageStyle: 'contain', // Fix for cropped image
+    imageStyle: 'cover', // Fix for cropped image
   },
   {
     id: 3,
@@ -233,7 +233,7 @@ const staffMembers = [
     image: '/lovable-uploads/Sandra de Fátima Vianna - Colaboradora.jpg',
     affiliation: '',
     category: 'Colaborador',
-    imageStyle: 'none', // Fix for cropped image
+    imageStyle: 'contain', // Fix for cropped image
   },
 ];
 
