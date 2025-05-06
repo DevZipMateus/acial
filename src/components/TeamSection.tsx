@@ -184,7 +184,7 @@ const boardMembers = [
     affiliation: 'Advogado e empresário – Delícias da Su',
     image: '/lovable-uploads/20) Pablo Mathaus Correa Lopes - Conselheiro Fiscal.jpg',
     category: 'Conselho Fiscal',
-    imageStyle: 'contain', // Fix for cropped image
+    imageStyle: 'cover', // Fix for cropped image
   },
 ];
 
