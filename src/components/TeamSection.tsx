@@ -31,7 +31,7 @@ const boardMembers = [
     affiliation: 'Advogada e empresária - FG Soluções Ambientais',
     image: '/lovable-uploads/3-Flávia Jeane Ferrari (Secretária Geral);.jpg',
     category: 'Diretoria',
-    imageStyle: 'contain', // Fix for cropped image
+    imageStyle: 'cover', // Fix for cropped image
   },
   {
     id: 4,
