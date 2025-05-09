@@ -8,7 +8,6 @@ import Services from '../components/Services';
 import Membership from '../components/Membership';
 import Contact from '../components/Contact';
 import WhatsAppButton from '../components/WhatsAppButton';
-import { PartnersSection } from '@/components/Parceiros';
 
 const Index = () => {
   // Scroll to top on page load and set page title for SEO
@@ -25,7 +24,6 @@ const Index = () => {
         <Hero />
         <About />
         <Services />
-        <PartnersSection />
         <Membership />
         <Contact />
       </main>
