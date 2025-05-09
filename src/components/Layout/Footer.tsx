@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Facebook, Instagram, MapPin, Mail, Phone } from 'lucide-react';
+import { FooterPartners } from '@/components/Parceiros';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -74,6 +75,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        
+        {/* Partners Section */}
+        <FooterPartners />
         
         {/* Copyright */}
         <div className="border-t border-white/10 mt-10 pt-6 text-center text-sm text-white/70">
