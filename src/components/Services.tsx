@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Search, FileCheck, Monitor, Users } from 'lucide-react';
+import { Search, FileCheck, Monitor, Users, Briefcase } from 'lucide-react';
 
 const services = [
   {
@@ -29,6 +29,14 @@ const services = [
   },
   {
     id: 4,
+    title: 'Ponto de Atendimento ao Empreendedor (PA)',
+    description: 'Parceria entre Sebrae/PR e ACIAL para apoiar o empreendedorismo na Lapa. Oferece capacitações gratuitas — presenciais, digitais e híbridas — voltadas ao fortalecimento e desenvolvimento de micro e pequenas empresas.',
+    icon: Briefcase,
+    iconColor: 'text-acial-green',
+    bgColor: 'bg-acial-green/10'
+  },
+  {
+    id: 5,
     title: 'Associe-se',
     description: 'Junte-se a nós para obter inúmeras vantagens e benefícios para o seu negócio.',
     icon: Users,
